@@ -1,0 +1,52 @@
+Infix Expression: 8 + 4 * 2 - 6
+Postfix Expression: 842*+6-
+Postfix Evaluation: 10
+
+Infix Expression: 7 * 2 - 4 * 3 + 2 * 5
+Postfix Expression: 72*43*-25*+
+Postfix Evaluation: 12
+
+Infix Expression: 2 * 3 * 4 - 8 + 9 / 3 / 3
+Postfix Expression: 23*4*8-93/3/+
+Postfix Evaluation: 17
+
+Infix Expression: 5 + 7 * 4 - 6
+Postfix Expression: 574*+6-
+Postfix Evaluation: 27
+
+Infix Expression: 4 * ( 3 + 2 * 4 ) - 7
+Postfix Expression: 4324*+*7-
+Postfix Evaluation: 37
+
+Infix Expression: ( 5  + 7 ) / ( 9 - 5 )
+Postfix Expression: 57+95-/
+Postfix Evaluation: 3
+
+Infix Expression: 3 * ( 5 * ( 5 - 2 ) ) - 9
+Postfix Expression: 3552-**9-
+Postfix Evaluation: 36
+
+Infix Expression: ( ( 5 * ( 4 + 2 ) - ( 8 + 8 ) / 2 ) - 9 ) ^ 3
+Postfix Expression: 542+*88+2/-9-3^
+Postfix Evaluation: 2197
+
+Infix Expression: ( ( 5 + 5 * ( 6 - 2 ) + 4 ^ 2 ) * 8 )
+Postfix Expression: 5562-*+42^+8*
+Postfix Evaluation: 328
+
+Infix Expression: ( ( ( 3 ^ 4 ) ) )
+Postfix Expression: 34^
+Postfix Evaluation: 81
+
+Invalid Infix Expression: 1 + * 2
+Reason: Adjacent Operators
+
+Invalid Infix Expression: 1 2 * 3 ^ 4
+Reason: Adjacent operands
+
+Invalid Infix Expression: ( 1 + 2
+Reason: Missing Parenthesis
+
+Invalid Infix Expression: ( 1 + 2 ) * 3 )
+Reason: Extra Parenthesis
+
